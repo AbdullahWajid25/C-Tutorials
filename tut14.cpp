@@ -1,3 +1,5 @@
 // Stuctures, unions and enums
 
-// === video skipped ===
+// Video skipped
+
+// Has practical use but not much important

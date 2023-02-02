@@ -1,6 +1,7 @@
 // Constants, manipulators & Operator percedence
 
 #include<iostream>
+
 #include<iomanip>
 // The above headerfile is used in this file to get the C++ manipulator 'setw'
 

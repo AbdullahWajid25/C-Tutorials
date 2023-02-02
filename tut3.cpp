@@ -1,9 +1,11 @@
 // Variables and comments
 
 #include<iostream>
+
 using namespace std;
 
 int main(){
+    
     // Variables:
     int myAge = 14;
     int frndAge = 15;

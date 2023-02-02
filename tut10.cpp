@@ -6,6 +6,10 @@ using namespace std;
 
 int main()
 {
+    int i = 0;
+    int i2 = 0;
+    int num = 1;
+
     //? ========== Loops in C++ ==========
     // Loops are used to perform something repeatedly uuntil a certain condition is full filled
 
@@ -44,11 +48,10 @@ int main()
 
     //* While loop to print counting till the number 10:
     cout << "--- While Loop ---" << endl;
-    int i = 0;
     while (i < 11)
     {
         cout << i << endl;
-        i++
+        i++;
     }
     
     //* Infinite While loop:
@@ -67,11 +70,11 @@ int main()
 
     //* While loop to print counting till the number 10:
     cout << "--- Do - While Loop ---" << endl;
-    int i = 0;
+    i2 = 0;
     do {
-        cout << i << endl;
-        i++
-    } while (i < 11);
+        cout << i2 << endl;
+        i2++;
+    } while (i2 < 11);
     
     //* Infinite While loop:
     // do {
@@ -81,12 +84,20 @@ int main()
     //! Quiz :
     //      Make a loop(any loop) to print the table of 6
     //! Solution :
-    for (int i = 6; i <= 10; i = i + 6)
-    {
-        int num = 1;
-        cout << "6 x " << num << " = " << i;
-        num = num + 1;
-    }
+    // for (int i = 6; i <= 10; i = i + 6)
+    // {
+    //     cout << "6 x " << num << " = " << i;
+    //     num++;
+    // }
+    //  ===== or =====
+    // for (int i = 6; i < 1; i++)
+    // {
+    //     for (int j = 0; j < 11; j = j + 6)
+    //     {
+    //         cout << i << " x " << j << " = " << i * j << endl;
+    //     }
+        
+    // }
     
     return 0;
 }
